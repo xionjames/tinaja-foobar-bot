@@ -13,6 +13,8 @@ presences = false
 # Plain-text commands, no Python needed. {author} mentions whoever asked, {prefix} is the prefix above.
 foo = "bar {author}"
 bar = "foo {author}"
+# This is the default reply when a user types a command that doesn't exist. You can use {author} to mention the user.
+fallback = "I don't know that command, {author}. Try !foo or !bar"
 
 [mentions]
 as_prefix = true # "@Bot hello" works the same as "!hello"

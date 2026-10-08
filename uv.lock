@@ -517,7 +517,7 @@ wheels = [
 [[package]]
 name = "tinaja-bot-base"
 version = "0.1.0"
-source = { git = "https://github.com/xionjames/tinaja-bot-base?rev=main#a0c5adbf5ab9b2727f97b20572355fae5fe1c3cf" }
+source = { git = "https://github.com/xionjames/tinaja-bot-base?rev=main#2d1efd35986d1b587d45764414be918d3443bc00" }
 dependencies = [
     { name = "discord-py" },
     { name = "python-dotenv" },
